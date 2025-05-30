@@ -1,6 +1,6 @@
 # 🤖 RL_agent: Reinforcement Learning Agent for Continuous Control
 
-This project implements a Reinforcement Learning (RL) agent designed to solve continuous control tasks. Leveraging deep learning techniques, the agent learns optimal policies through interaction with dynamic environments.
+This project implements a Reinforcement Learning (RL) agent designed to solve continuous control tasks. Leveraging deep learning techniques, the agent learns optimal policies through interaction with dynamic environments. The goal of this RL agent is to be capable of solving an environment for decision-making in Autonomous Driving.
 
 ## 📁 Repository Contents
 
@@ -26,6 +26,22 @@ The objective of this project is to develop an RL agent capable of performing in
 - **Environment Interaction**: Utilizes OpenAI Gym environments for simulation.
 - **Policy Learning**: Implements algorithms like Proximal Policy Optimization (PPO) for stable learning.
 - **Performance Evaluation**: Includes tools for monitoring training progress and evaluating agent performance.
+
+### Solutions
+
+* **Environment Observation Type:**
+  - Kinematics;
+  - OccupancyGrid.
+
+* **Agent Action Type:**
+  - DiscreteMetaAction;
+  - ContinuousAction.
+
+* **Algorithm Used:**
+  - Random;
+  - Deep Q-network (DQN);
+  - Q-learning;
+  - SARSA.
 
 ## 🚀 Getting Started
 
